@@ -1,0 +1,54 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.root{
+    
+}
+    .header{
+        background: #000;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+        .foto{
+            background-color: rgb(90, 80, 100);
+        }
+        .nombre{
+            background-color: rgb(90, 80, 100);
+        }
+        .datos-personales{
+            background-color: rgb(90, 80, 100);
+        }
+    .competencias{
+        background-color: #000;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+        .compet{
+            background-color: rgb(90, 80, 100);
+        }
+    .perfil-profesional{
+        background-color: #000;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+        .info{
+            background-color: rgb(90, 80, 100);
+        }
+    .exp-lab{
+        background-color: #000;
+        margin: auto;
+        text-align: center;
+        color: white;
+    }
+        .trabajo1{
+            background-color: rgb(90, 80, 100);
+        }
+        .trabajo2{
+            background-color: rgb(90, 80, 100);
+        }
