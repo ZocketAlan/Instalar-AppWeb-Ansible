@@ -1,0 +1,20 @@
+---
+- name: Deploy web page
+  hosts: ztserver
+  become: true
+  tasks:
+#    - name: Create data base
+#      mysql_db: name=bicicletas state=present login_user=root login_password="pass"
+
+#    - name: Copy scheme and file data base
+#      copy: src=files/database.sql dest=/tmp/database.sql
+
+#    - name: Execute scripts
+#      mysql_db: name=bicicletas state=import target=/tmp/database.sql login_user=root login_password="pass"
+
+    - name: Move file directory
+      synchronize:
+        src: /WebPage
+        dest: /var/www/html/
+        recursive: yes
+

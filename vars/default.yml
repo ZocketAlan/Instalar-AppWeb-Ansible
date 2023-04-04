@@ -1,0 +1,7 @@
+---
+mysql_root_password: "pass"
+app_user: "root"
+http_host: "ajimenez.com"
+http_conf: "ajimenez.com.conf"
+http_port: "80"
+disable_default: true
